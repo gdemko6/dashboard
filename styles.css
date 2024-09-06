@@ -7,6 +7,8 @@ html{
     height: 100%;
 }
 
+  
+
 body {
     display: grid;
     grid-template: 150px auto / 225px auto;
@@ -23,8 +25,10 @@ body {
 
 #sidebar > div {
     padding-left: 15px;
-    font-weight: 900;
-    color: white;
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: black;
     font-size: 18px;
     display: flex;
     align-items: center;
