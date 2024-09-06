@@ -16,7 +16,36 @@ body {
 
 #sidebar {
     grid-row: 1 / 3;
-    background-color: rgb(13, 110, 238);
+    background-color: rgb(34, 125, 245);
+    display: grid;
+    grid-template-rows: 75px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px;
+}
+
+#sidebar > div {
+    padding-left: 15px;
+    font-weight: 900;
+    color: white;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    
+}
+
+#sidebar img {
+    height: 30px;
+    width: 30px;
+    margin-right: 20px;
+    
+}
+
+#sidebar > .dash {
+    font-size: 24px;
+    padding-left: 10px;
+}
+#sidebar > .dash img {
+    width: 35px;
+    height: 35px;
+    margin-right: 15px;
 }
 
 #header {
