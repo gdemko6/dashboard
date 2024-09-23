@@ -57,17 +57,32 @@ body {
 
 #header {
     grid-column-start: 2;
+    
 }
 
 .flexcontainertop {
     display: flex;
     align-items: center;
     gap: 5px;
+    padding-left: 10px;
+    justify-content: left;
 }
 
+#searchbar {
+    margin-left: auto;
+    margin-right: 25px;
+    width: min(60%, 400px);
+}
+#searchbar input {
+    width: 100%;
+}
 
 #main {
     grid-row-start: 2;
     grid-column-start: 2;
     background-color: lightgray;
+}
+#profilepic, #notification {
+    width: 30px;
+    
 }
