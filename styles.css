@@ -57,10 +57,18 @@ body {
 
 #header {
     grid-column-start: 2;
-    
+   
+}
+#nav {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    justify-content: space-between;
 }
 
 .flexcontainertop {
+    
     display: flex;
     align-items: center;
     gap: 5px;
@@ -85,4 +93,17 @@ body {
 #profilepic, #notification {
     width: 30px;
     
+}
+
+.flexcontainerbottom {
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    padding: 20px 30px;
+}
+.flexcontainerbottom button {
+   height: 50px;
+   width: 125px;
+   border-radius: 5px;
+   background-color: #7c3aed;
 }
